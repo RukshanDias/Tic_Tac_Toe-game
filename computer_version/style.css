@@ -1,0 +1,27 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+
+.tile_container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+}
+.tile_container .tile{
+    width: 75px;
+    height: 75px;
+    border: 2px solid black;
+    font-size: 55px;
+    box-shadow: 0 0 0 2px;
+    cursor: pointer;
+    font-family: cursive;
+    
+}
+.correct{
+    background-color: rgba(36, 224, 51, 0.729);
+}
+.draw{
+    background-color: rgb(89, 114, 155);
+}
